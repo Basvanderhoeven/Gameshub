@@ -1,0 +1,138 @@
+html{font-family: verdana; background: url(../img/background.png);}
+body{margin:0;}
+h2{margin:0;}
+.shadow{box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.40);
+    -moz-box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.40);
+    -webkit-box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.30);}
+.backend_center{width:1000px; margin:0 auto; background:#FFF; min-height:500px;}
+.backend_menu_background{
+    width:100%; 
+    height:50px; 
+    margin:0; 
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.40);
+    -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.40);
+    -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.40);
+    background-image: -ms-linear-gradient(top, #222222 0%, #444444 100%);
+    background-image: -moz-linear-gradient(top, #222222 0%, #444444 100%);
+    background-image: -o-linear-gradient(top, #222222 0%, #444444 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222222), color-stop(1, #444444));
+    background-image: -webkit-linear-gradient(top, #222222 0%, #444444 100%);
+    background-image: linear-gradient(to bottom, #222222 0%, #444444 100%);}
+.backend_menu_item{float:left; margin:10px 50px 0px 10px}
+.backend_menu_item_right{float:right; margin:10px 50px 0px 10px;}
+.backend_menu_item_right img{width: 30px; height:30px; float:left;}
+.backend_menu_item_right a{}
+.backend_menu_item a, .backend_menu_item_right a{color:#FFF; font-weight: bold; font-size: 20px; text-decoration: none;}
+.backend_login_background{ width:500px; margin:0 auto;}
+.backend_login_background div h2{padding-top:50px;}
+.backend_login_form{margin-top:50px;}
+.barcode_order_table_name_title, .barcode_order_table_location_title, .barcode_order_table_platform_title, 
+.barcode_order_table_fysical_title, .barcode_order_table_amount_title{
+    font-size: 18px;
+    font-weight:bold;
+    background:#000;
+    color:#FFF;
+}
+.barcode_order_table{
+    width:900px;
+    height:400px;
+    margin:0 auto;
+}
+.barcode_order_table_name{
+    width:500px;
+    height:25px;
+    float:left;
+    text-align: left;
+}
+.barcode_order_table_platform{
+    width:100px;
+    height:25px;
+    float:left;
+    text-align: center;
+}
+.barcode_order_table_fysical{
+    width:120px;
+    height:25px;
+    float:left;
+    text-align: center;
+}
+.barcode_order_table_location{
+    width:80px;
+    height:25px;
+    float:left;
+    text-align: center;
+}
+.barcode_order_table_amount{
+    width:100px;
+    height:25px;
+    float:left;
+    text-align: center;
+}
+.customerregistrationform{
+    width:500px;
+    margin: 0 auto;
+    padding-top:100px;
+}
+.customerregistrationform input[type='text'], .customerregistrationform input[type='email']{
+    width:100%;
+    height:25px;
+    border-style: none;
+    border-bottom: 1px solid #000;
+}
+
+.customerregistrationform input[type='submit']{
+    padding:20px;
+    color:#FFF;
+    font-weight: bolder;
+    margin-top:20px;
+    border-style: none;
+    background-color:#3f3f3f;
+    border-bottom: 4px solid #2a2a2a;
+    border-radius: 2px;
+}
+.stock_table{
+    width:700px;
+    margin:0 auto;
+    padding-top:100px;
+    font-size: 12px;
+}
+.stock_table_headers div{
+    font-size: 18px;
+    font-weight:bold;
+    background:#000;
+    color:#FFF;  
+}
+.stock_table_item_name, .stock_table_header_name{
+    width: 300px;
+    float:left;
+}
+.stock_table_item_platform, .stock_table_header_platform{
+    width:100px;
+    float:left;
+}
+.stock_table_item_fysical, .stock_table_header_stock{
+    width:100px;
+    float:left;
+}
+.stock_table_item_location, .stock_table_header_location{
+    width:200px;
+    float:left;
+}
+.stock_table_title{
+    font-size:25px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+.managementbuttons div{
+    width:235px;
+    height:150px;
+    border:1px solid #c4c4c4;
+    float:left;
+    margin-left:10px;
+    margin-top:150px;
+    text-align: center;
+    line-height: 7;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bolder;
+}
